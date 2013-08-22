@@ -600,7 +600,7 @@ Usage: unzip %s[-opts[modifiers]] file[.zip] [list] [-x xlist] [-d fm]\n \
 \n  file[.zip] may be a wildcard.  %s\n";
 #else /* !VM_CMS */
 static ZCONST char Far UnzipUsageLine2[] = "\
-Usage: unzip %s[-opts[modifiers]] file[.zip] [list] [-x xlist] [-d exdir]\n \
+Diego's Unzip Usage: unzip %s[-opts[modifiers]] file[.zip] [list] [-x xlist] [-d exdir]\n \
  Default action is to extract files in list, except those in xlist, to exdir;\n\
   file[.zip] may be a wildcard.  %s\n";
 #endif /* ?VM_CMS */
